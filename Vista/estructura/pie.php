@@ -1,20 +1,25 @@
    </main>
-    <footer class="container">
-		<!-- <div class="row border-top py-5 justify-content-between">
-			<div class="col-auto">
-				<a href="#" class="btn btn-link">Subir en Página</a>
-			</div>
-		</div> -->
-	</footer>
+   <!-- <footer class="" style="background-color:black ;color:white;">
+   	<div class="text-center py-3">Grupo 9:
+   	</div>
+   </footer> -->
 
-	
-	<!-- jquery -->
-	<script src="../js/jquery/jquery-3.5.1.slim.min.js"></script>
-	<!-- bootstraop -->
-	<script src="../js/bootstrap/bootstrap.min.js"></script>
-	<!-- validacion -->
-	<script src="../js/bootstrap/bootstrapValidator.min.js"></script>
-	<!-- validacion -->
-    <script src="../js/bootstrap/validator.js"></script>
-</body>
-</html>
+   <!-- jquery -->
+   <script src="../js/jquery/jquery-3.5.1.slim.min.js"></script>
+   <!-- bootstraop -->
+   <script src="../js/bootstrap/bootstrap.min.js"></script>
+   <!-- validacion -->
+   <script src="../js/bootstrap/bootstrapValidator.min.js"></script>
+   <!-- validacion -->
+   <script src="../js/bootstrap/validator.js"></script>
+   <!-- Select2 -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+   <script>
+      $("#multiple").select2({
+         placeholder: "Elegir Permisos",
+         allowClear: true
+      });
+   </script>
+   </body>
+
+   </html>
